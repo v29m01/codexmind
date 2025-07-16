@@ -112,9 +112,9 @@ include_once('header.php');
     <div class="row g-4 justify-content-center">
       <!-- Team Member -->
       <div class="col-md-3 text-center" data-aos="zoom-in">
-        <img src="assets\images\team-1.jpg" class="img-fluid rounded-circle mb-3 " alt="Team Member" >
-        <h6 class="fw-bold">Founder name</h6>
-        <p class="text-white-50">Founder & Tech Lead</p>
+        <img src="assets\images\kute.jpg" class="img-fluid rounded-circle mb-3 " alt="Team Member" >
+        <h6 class="fw-bold">Makarand Kute </h6>
+        <p class="text-white-50">Manager</p>
       </div>
       <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="150">
         <img src="assets\images\team-2.jpg" class="img-fluid rounded-circle mb-3" alt="Team Member">
