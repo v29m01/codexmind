@@ -47,12 +47,12 @@ include_once('header.php');
         <p><i class="bi bi-geo-alt-fill text-info me-2"></i>Office No 106, VTP Square, Mahalunge, Baner, Pune</p>
         <p><i class="bi bi-envelope-fill text-info me-2"></i><a href="mailto:admin@codexmind.in" class="text-white text-decoration-none">admin@codexmind.in</a></p>
         <p><i class="bi bi-telephone-fill text-info me-2"></i><a href="tel:+919359415820" class="text-white text-decoration-none">+91 93594 15820</a></p>
-        <div class="mt-4">
-          <h6 class="fw-bold">Follow Us:</h6>
-          <a href="#" class="text-info fs-4 me-3"><i class="bi bi-linkedin"></i></a>
-          <a href="#" class="text-info fs-4 me-3"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="text-info fs-4"><i class="bi bi-facebook"></i></a>
-        </div>
+        // <div class="mt-4">
+        //   <h6 class="fw-bold">Follow Us:</h6>
+        //   <a href="#" class="text-info fs-4 me-3"><i class="bi bi-linkedin"></i></a>
+        //   <a href="#" class="text-info fs-4 me-3"><i class="bi bi-instagram"></i></a>
+        //   <a href="#" class="text-info fs-4"><i class="bi bi-facebook"></i></a>
+        // </div>
       </div>
 
       <!-- Contact Form -->
