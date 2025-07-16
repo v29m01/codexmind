@@ -5,3 +5,9 @@
     "phpmailer/phpmailer": "^6.5"
   }
 }
+{
+  "require": {
+    "phpmailer/phpmailer": "^6.5"
+  }
+}
+
