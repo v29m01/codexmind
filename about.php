@@ -117,9 +117,9 @@ include_once('header.php');
         <p class="text-white-50">Manager</p>
       </div>
       <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="150">
-        <img src="assets\images\team-2.jpg" class="img-fluid rounded-circle mb-3" alt="Team Member">
-        <h6 class="fw-bold">Team Person</h6>
-        <p class="text-white-50">Cloud Architect</p>
+        <img src="assets\images\headshot.jpg" class="img-fluid rounded-circle mb-3" alt="Team Member">
+        <h6 class="fw-bold">Vaishnavi Mane</h6>
+        <p class="text-white-50">Web Developer</p>
       </div>
       <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="300">
         <img src="assets\images\team-3.jpg" class="img-fluid rounded-circle mb-3" alt="Team Member">
