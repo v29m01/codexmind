@@ -1,0 +1,219 @@
+ /* Full height for hero */
+.hero-slide {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.hero-slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.hero-slide .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay ON image */
+  z-index: 1;
+}
+.hero-slide .content {
+  position: absolute;
+  top: 50%;
+  left: 5vw;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+/* Vertical Number Indicators */
+.vertical-indicators {
+  position: absolute;
+  top: 50%;
+  right: 30px; /* ⬅️ changed from left: 30px */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 5;
+}
+
+.vertical-indicators button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.vertical-indicators button.active,
+.vertical-indicators button:hover {
+  background-color: white;
+  color: black;
+}
+/* On mobile devices: 50vh height */
+@media (max-width: 768px) {
+  .hero-slide {
+    height: 60vh;
+  }
+
+  .hero-slide img {
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .hero-slide .content {
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 1rem;
+    width: 80vw;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .hero-slide h1{
+    font-size:20px;
+  }
+}
+
+/* who we are */
+
+.who-we-are-section {
+  background-color:#000000;
+}
+.who-we-are-section p{
+   color: #e8e8e8;
+}
+.who-we-are-section h1 {
+  font-size: 3.2rem;
+  color: #e1e1e1;
+}
+
+.who-we-are-section ul li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #e0e0e0;
+}
+
+.who-we-are-section .btn-primary {
+  background: linear-gradient(135deg, #44b2e1, #007BFF);
+  border: none;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.who-we-are-section .btn-primary:hover {
+  background: linear-gradient(135deg, #007BFF, #58b7e0);
+  color: #fff;
+}
+
+/* shape divider */
+.custom-shape-divider-bottom-1751913432 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.custom-shape-divider-bottom-1751913432 svg {
+    position: relative;
+    display: block;
+    width: calc(138% + 1.3px);
+    height: 67px;
+}
+
+.custom-shape-divider-bottom-1751913432 .shape-fill {
+    fill: #000000;
+}
+
+
+.custom-shape-divider-top-1751914761 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.core-values-section {
+  background-color: #000000;
+ 
+}
+
+.core-card {
+  background-color: rgba(40, 170, 225, 0.05);
+  border: 1px solid #28AAE1;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(40, 170, 225, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.core-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 0 25px rgba(40, 170, 225, 0.4);
+  border-color: #f0f0f0;
+}
+
+.core-card h5 {
+  color: #ccc;
+  font-weight: 600;
+}
+
+.core-card p {
+  color: #ccc;
+  font-size: 15px;
+}
+
+.core-card i {
+  transition: transform 0.3s ease;
+}
+
+.core-card:hover i {
+  transform: scale(1.2) rotate(5deg);
+}
+/* Make the video fill the section */
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Dark overlay for readability */
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* adjust for darkness */
+  z-index: 2;
+}
+
+/* Ensure content is on top of video */
+.core-values-section .container {
+  position: relative;
+  z-index: 3;
+}
+
+.about-header{
+  background-image: url(assets\images\about-hero.jpg);
+}
