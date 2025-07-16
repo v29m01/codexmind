@@ -92,7 +92,7 @@ include_once('header.php');
        <!-- UI/UX Design -->
       <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
         <div class="p-4 border rounded bg-dark h-100">
-          <i class="bi-cloud-fog-fill"></i>
+          <i class="bi bi-cloud-fog-fill"></i>
           <h5 class="mt-3 fw-bold"> Cloud & DevOps Integration</h5>
           <p class="text-white-50">Creating visually stunning and user-friendly interfaces that enhance digital experience and engagement.</p>
         </div>
