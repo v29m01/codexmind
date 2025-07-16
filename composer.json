@@ -1,0 +1,7 @@
+{
+  "name": "v29m01/codexmind",
+  "description": "CodexMind PHP Project hosted on Render",
+  "require": {
+    "phpmailer/phpmailer": "^6.5"
+  }
+}
